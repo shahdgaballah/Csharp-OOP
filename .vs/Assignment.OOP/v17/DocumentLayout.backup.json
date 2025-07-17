@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "E:\\gdg-backend\\Assignment.OOP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EED59945-6838-4A4F-8B46-F8F5D9317D9B}|LibrarySystem\\LibrarySystem.csproj|e:\\gdg-backend\\assignment.oop\\librarysystem\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EED59945-6838-4A4F-8B46-F8F5D9317D9B}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB4EF4BD-ADD0-459A-A326-CE114D0FF4C4}|HospitalSystem\\HospitalSystem.csproj|e:\\gdg-backend\\assignment.oop\\hospitalsystem\\hospitalsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4EF4BD-ADD0-459A-A326-CE114D0FF4C4}|HospitalSystem\\HospitalSystem.csproj|solutionrelative:hospitalsystem\\hospitalsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EED59945-6838-4A4F-8B46-F8F5D9317D9B}|LibrarySystem\\LibrarySystem.csproj|e:\\gdg-backend\\assignment.oop\\librarysystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EED59945-6838-4A4F-8B46-F8F5D9317D9B}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB4EF4BD-ADD0-459A-A326-CE114D0FF4C4}|HospitalSystem\\HospitalSystem.csproj|e:\\gdg-backend\\assignment.oop\\hospitalsystem\\hospitalqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4EF4BD-ADD0-459A-A326-CE114D0FF4C4}|HospitalSystem\\HospitalSystem.csproj|solutionrelative:hospitalsystem\\hospitalqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EED59945-6838-4A4F-8B46-F8F5D9317D9B}|LibrarySystem\\LibrarySystem.csproj|e:\\gdg-backend\\assignment.oop\\librarysystem\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EED59945-6838-4A4F-8B46-F8F5D9317D9B}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB4EF4BD-ADD0-459A-A326-CE114D0FF4C4}|HospitalSystem\\HospitalSystem.csproj|e:\\gdg-backend\\assignment.oop\\hospitalsystem\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4EF4BD-ADD0-459A-A326-CE114D0FF4C4}|HospitalSystem\\HospitalSystem.csproj|solutionrelative:hospitalsystem\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EED59945-6838-4A4F-8B46-F8F5D9317D9B}|LibrarySystem\\LibrarySystem.csproj|e:\\gdg-backend\\assignment.oop\\librarysystem\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EED59945-6838-4A4F-8B46-F8F5D9317D9B}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4EF4BD-ADD0-459A-A326-CE114D0FF4C4}|HospitalSystem\\HospitalSystem.csproj|e:\\gdg-backend\\assignment.oop\\hospitalsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4EF4BD-ADD0-459A-A326-CE114D0FF4C4}|HospitalSystem\\HospitalSystem.csproj|solutionrelative:hospitalsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,23 +30,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "E:\\gdg-backend\\Assignment.OOP\\HospitalSystem\\Patient.cs",
+              "RelativeDocumentMoniker": "HospitalSystem\\Patient.cs",
+              "ToolTip": "E:\\gdg-backend\\Assignment.OOP\\HospitalSystem\\Patient.cs",
+              "RelativeToolTip": "HospitalSystem\\Patient.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T17:59:34.993Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "User.cs",
-              "DocumentMoniker": "E:\\gdg-backend\\Assignment.OOP\\LibrarySystem\\User.cs",
-              "RelativeDocumentMoniker": "LibrarySystem\\User.cs",
-              "ToolTip": "E:\\gdg-backend\\Assignment.OOP\\LibrarySystem\\User.cs",
-              "RelativeToolTip": "LibrarySystem\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAHAAAAAAAAAA==",
+              "Title": "HospitalSystem.cs",
+              "DocumentMoniker": "E:\\gdg-backend\\Assignment.OOP\\HospitalSystem\\HospitalSystem.cs",
+              "RelativeDocumentMoniker": "HospitalSystem\\HospitalSystem.cs",
+              "ToolTip": "E:\\gdg-backend\\Assignment.OOP\\HospitalSystem\\HospitalSystem.cs",
+              "RelativeToolTip": "HospitalSystem\\HospitalSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T16:48:20.328Z",
+              "WhenOpened": "2025-07-17T17:33:29.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HospitalQueue.cs",
+              "DocumentMoniker": "E:\\gdg-backend\\Assignment.OOP\\HospitalSystem\\HospitalQueue.cs",
+              "RelativeDocumentMoniker": "HospitalSystem\\HospitalQueue.cs",
+              "ToolTip": "E:\\gdg-backend\\Assignment.OOP\\HospitalSystem\\HospitalQueue.cs",
+              "RelativeToolTip": "HospitalSystem\\HospitalQueue.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAACEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T17:33:05.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\gdg-backend\\Assignment.OOP\\HospitalSystem\\Program.cs",
+              "RelativeDocumentMoniker": "HospitalSystem\\Program.cs",
+              "ToolTip": "E:\\gdg-backend\\Assignment.OOP\\HospitalSystem\\Program.cs",
+              "RelativeToolTip": "HospitalSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T17:16:50.043Z",
               "EditorCaption": ""
             },
             {
@@ -53,35 +104,9 @@
               "RelativeDocumentMoniker": "LibrarySystem\\Library.cs",
               "ToolTip": "E:\\gdg-backend\\Assignment.OOP\\LibrarySystem\\Library.cs",
               "RelativeToolTip": "LibrarySystem\\Library.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T16:19:25.248Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Book.cs",
-              "DocumentMoniker": "E:\\gdg-backend\\Assignment.OOP\\LibrarySystem\\Book.cs",
-              "RelativeDocumentMoniker": "LibrarySystem\\Book.cs",
-              "ToolTip": "E:\\gdg-backend\\Assignment.OOP\\LibrarySystem\\Book.cs",
-              "RelativeToolTip": "LibrarySystem\\Book.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T16:08:10.022Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\gdg-backend\\Assignment.OOP\\LibrarySystem\\Program.cs",
-              "RelativeDocumentMoniker": "LibrarySystem\\Program.cs",
-              "ToolTip": "E:\\gdg-backend\\Assignment.OOP\\LibrarySystem\\Program.cs",
-              "RelativeToolTip": "LibrarySystem\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T15:53:16.734Z",
+              "WhenOpened": "2025-07-17T17:30:34.153Z",
               "EditorCaption": ""
             }
           ]

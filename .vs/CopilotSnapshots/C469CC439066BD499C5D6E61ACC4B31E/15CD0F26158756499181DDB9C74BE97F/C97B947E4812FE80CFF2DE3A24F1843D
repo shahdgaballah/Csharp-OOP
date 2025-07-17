@@ -1,0 +1,40 @@
+﻿namespace HospitalSystem
+{
+    public class HospitalSystem
+    {
+        //menu
+        public static void DisplayMenu()
+        {
+            Console.WriteLine("Enter your choice: ");
+            Console.WriteLine("1. Add new patient");
+            Console.WriteLine("2. Print all patients");
+            Console.WriteLine("3. Get next patient");
+            Console.WriteLine("4. Exit");
+
+
+        }
+
+        public static void run()
+        {
+            while (true)
+            {
+                DisplayMenu();
+
+                int choice = Convert.ToInt16(Console.ReadLine());
+                if (choice < 1 || choice > 4)
+                {
+                    Console.WriteLine("Enter a choice between 1 & 4");
+                    continue;
+                }
+
+                if (choice == 4) break;
+
+                if (choice == 1) Console.WriteLine("Add new patient"); //Add_new_patient();
+                else if (choice == 2) Console.WriteLine("Print_all_patients"); //Print_all_patients();
+                else if (choice == 3) Console.WriteLine("Get_next_patient();"); //Get_next_patient();
+                
+            }
+
+        }
+    }
+}

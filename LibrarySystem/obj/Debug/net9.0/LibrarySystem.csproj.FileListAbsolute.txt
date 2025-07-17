@@ -12,3 +12,4 @@ E:\gdg-backend\Assignment.OOP\LibrarySystem\obj\Debug\net9.0\refint\LibrarySyste
 E:\gdg-backend\Assignment.OOP\LibrarySystem\obj\Debug\net9.0\LibrarySystem.pdb
 E:\gdg-backend\Assignment.OOP\LibrarySystem\obj\Debug\net9.0\LibrarySystem.genruntimeconfig.cache
 E:\gdg-backend\Assignment.OOP\LibrarySystem\obj\Debug\net9.0\ref\LibrarySystem.dll
+E:\gdg-backend\Assignment.OOP\LibrarySystem\obj\Debug\net9.0\LibrarySystem.sourcelink.json

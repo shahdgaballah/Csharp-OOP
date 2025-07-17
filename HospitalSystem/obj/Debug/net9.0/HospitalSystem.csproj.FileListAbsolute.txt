@@ -1,0 +1,15 @@
+E:\gdg-backend\Assignment.OOP\HospitalSystem\bin\Debug\net9.0\HospitalSystem.exe
+E:\gdg-backend\Assignment.OOP\HospitalSystem\bin\Debug\net9.0\HospitalSystem.deps.json
+E:\gdg-backend\Assignment.OOP\HospitalSystem\bin\Debug\net9.0\HospitalSystem.runtimeconfig.json
+E:\gdg-backend\Assignment.OOP\HospitalSystem\bin\Debug\net9.0\HospitalSystem.dll
+E:\gdg-backend\Assignment.OOP\HospitalSystem\bin\Debug\net9.0\HospitalSystem.pdb
+E:\gdg-backend\Assignment.OOP\HospitalSystem\obj\Debug\net9.0\HospitalSystem.GeneratedMSBuildEditorConfig.editorconfig
+E:\gdg-backend\Assignment.OOP\HospitalSystem\obj\Debug\net9.0\HospitalSystem.AssemblyInfoInputs.cache
+E:\gdg-backend\Assignment.OOP\HospitalSystem\obj\Debug\net9.0\HospitalSystem.AssemblyInfo.cs
+E:\gdg-backend\Assignment.OOP\HospitalSystem\obj\Debug\net9.0\HospitalSystem.csproj.CoreCompileInputs.cache
+E:\gdg-backend\Assignment.OOP\HospitalSystem\obj\Debug\net9.0\HospitalSystem.sourcelink.json
+E:\gdg-backend\Assignment.OOP\HospitalSystem\obj\Debug\net9.0\HospitalSystem.dll
+E:\gdg-backend\Assignment.OOP\HospitalSystem\obj\Debug\net9.0\refint\HospitalSystem.dll
+E:\gdg-backend\Assignment.OOP\HospitalSystem\obj\Debug\net9.0\HospitalSystem.pdb
+E:\gdg-backend\Assignment.OOP\HospitalSystem\obj\Debug\net9.0\HospitalSystem.genruntimeconfig.cache
+E:\gdg-backend\Assignment.OOP\HospitalSystem\obj\Debug\net9.0\ref\HospitalSystem.dll

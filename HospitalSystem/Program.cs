@@ -1,0 +1,10 @@
+﻿namespace HospitalSystem;
+
+
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        HospitalSystem.run();
+    }
+}
