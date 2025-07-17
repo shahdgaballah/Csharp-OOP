@@ -1,0 +1,14 @@
+E:\gdg-backend\Assignment.OOP\LibrarySystem\bin\Debug\net9.0\LibrarySystem.exe
+E:\gdg-backend\Assignment.OOP\LibrarySystem\bin\Debug\net9.0\LibrarySystem.deps.json
+E:\gdg-backend\Assignment.OOP\LibrarySystem\bin\Debug\net9.0\LibrarySystem.runtimeconfig.json
+E:\gdg-backend\Assignment.OOP\LibrarySystem\bin\Debug\net9.0\LibrarySystem.dll
+E:\gdg-backend\Assignment.OOP\LibrarySystem\bin\Debug\net9.0\LibrarySystem.pdb
+E:\gdg-backend\Assignment.OOP\LibrarySystem\obj\Debug\net9.0\LibrarySystem.GeneratedMSBuildEditorConfig.editorconfig
+E:\gdg-backend\Assignment.OOP\LibrarySystem\obj\Debug\net9.0\LibrarySystem.AssemblyInfoInputs.cache
+E:\gdg-backend\Assignment.OOP\LibrarySystem\obj\Debug\net9.0\LibrarySystem.AssemblyInfo.cs
+E:\gdg-backend\Assignment.OOP\LibrarySystem\obj\Debug\net9.0\LibrarySystem.csproj.CoreCompileInputs.cache
+E:\gdg-backend\Assignment.OOP\LibrarySystem\obj\Debug\net9.0\LibrarySystem.dll
+E:\gdg-backend\Assignment.OOP\LibrarySystem\obj\Debug\net9.0\refint\LibrarySystem.dll
+E:\gdg-backend\Assignment.OOP\LibrarySystem\obj\Debug\net9.0\LibrarySystem.pdb
+E:\gdg-backend\Assignment.OOP\LibrarySystem\obj\Debug\net9.0\LibrarySystem.genruntimeconfig.cache
+E:\gdg-backend\Assignment.OOP\LibrarySystem\obj\Debug\net9.0\ref\LibrarySystem.dll

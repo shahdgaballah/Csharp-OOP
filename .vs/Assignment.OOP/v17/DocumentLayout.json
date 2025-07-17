@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\gdg-backend\\Assignment.OOP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EED59945-6838-4A4F-8B46-F8F5D9317D9B}|LibrarySystem\\LibrarySystem.csproj|e:\\gdg-backend\\assignment.oop\\librarysystem\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EED59945-6838-4A4F-8B46-F8F5D9317D9B}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EED59945-6838-4A4F-8B46-F8F5D9317D9B}|LibrarySystem\\LibrarySystem.csproj|e:\\gdg-backend\\assignment.oop\\librarysystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EED59945-6838-4A4F-8B46-F8F5D9317D9B}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EED59945-6838-4A4F-8B46-F8F5D9317D9B}|LibrarySystem\\LibrarySystem.csproj|e:\\gdg-backend\\assignment.oop\\librarysystem\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EED59945-6838-4A4F-8B46-F8F5D9317D9B}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EED59945-6838-4A4F-8B46-F8F5D9317D9B}|LibrarySystem\\LibrarySystem.csproj|e:\\gdg-backend\\assignment.oop\\librarysystem\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EED59945-6838-4A4F-8B46-F8F5D9317D9B}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\gdg-backend\\Assignment.OOP\\LibrarySystem\\User.cs",
+              "RelativeDocumentMoniker": "LibrarySystem\\User.cs",
+              "ToolTip": "E:\\gdg-backend\\Assignment.OOP\\LibrarySystem\\User.cs",
+              "RelativeToolTip": "LibrarySystem\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T16:48:20.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Library.cs",
+              "DocumentMoniker": "E:\\gdg-backend\\Assignment.OOP\\LibrarySystem\\Library.cs",
+              "RelativeDocumentMoniker": "LibrarySystem\\Library.cs",
+              "ToolTip": "E:\\gdg-backend\\Assignment.OOP\\LibrarySystem\\Library.cs",
+              "RelativeToolTip": "LibrarySystem\\Library.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T16:19:25.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Book.cs",
+              "DocumentMoniker": "E:\\gdg-backend\\Assignment.OOP\\LibrarySystem\\Book.cs",
+              "RelativeDocumentMoniker": "LibrarySystem\\Book.cs",
+              "ToolTip": "E:\\gdg-backend\\Assignment.OOP\\LibrarySystem\\Book.cs",
+              "RelativeToolTip": "LibrarySystem\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T16:08:10.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\gdg-backend\\Assignment.OOP\\LibrarySystem\\Program.cs",
+              "RelativeDocumentMoniker": "LibrarySystem\\Program.cs",
+              "ToolTip": "E:\\gdg-backend\\Assignment.OOP\\LibrarySystem\\Program.cs",
+              "RelativeToolTip": "LibrarySystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T15:53:16.734Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
