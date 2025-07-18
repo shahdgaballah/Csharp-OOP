@@ -1,0 +1,15 @@
+E:\gdg-backend\Assignment.OOP\OnlineBookReader\bin\Debug\net9.0\OnlineBookReader.exe
+E:\gdg-backend\Assignment.OOP\OnlineBookReader\bin\Debug\net9.0\OnlineBookReader.deps.json
+E:\gdg-backend\Assignment.OOP\OnlineBookReader\bin\Debug\net9.0\OnlineBookReader.runtimeconfig.json
+E:\gdg-backend\Assignment.OOP\OnlineBookReader\bin\Debug\net9.0\OnlineBookReader.dll
+E:\gdg-backend\Assignment.OOP\OnlineBookReader\bin\Debug\net9.0\OnlineBookReader.pdb
+E:\gdg-backend\Assignment.OOP\OnlineBookReader\obj\Debug\net9.0\OnlineBookReader.GeneratedMSBuildEditorConfig.editorconfig
+E:\gdg-backend\Assignment.OOP\OnlineBookReader\obj\Debug\net9.0\OnlineBookReader.AssemblyInfoInputs.cache
+E:\gdg-backend\Assignment.OOP\OnlineBookReader\obj\Debug\net9.0\OnlineBookReader.AssemblyInfo.cs
+E:\gdg-backend\Assignment.OOP\OnlineBookReader\obj\Debug\net9.0\OnlineBookReader.csproj.CoreCompileInputs.cache
+E:\gdg-backend\Assignment.OOP\OnlineBookReader\obj\Debug\net9.0\OnlineBookReader.sourcelink.json
+E:\gdg-backend\Assignment.OOP\OnlineBookReader\obj\Debug\net9.0\OnlineBookReader.dll
+E:\gdg-backend\Assignment.OOP\OnlineBookReader\obj\Debug\net9.0\refint\OnlineBookReader.dll
+E:\gdg-backend\Assignment.OOP\OnlineBookReader\obj\Debug\net9.0\OnlineBookReader.pdb
+E:\gdg-backend\Assignment.OOP\OnlineBookReader\obj\Debug\net9.0\OnlineBookReader.genruntimeconfig.cache
+E:\gdg-backend\Assignment.OOP\OnlineBookReader\obj\Debug\net9.0\ref\OnlineBookReader.dll

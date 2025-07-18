@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "E:\\gdg-backend\\Assignment.OOP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AB4EF4BD-ADD0-459A-A326-CE114D0FF4C4}|HospitalSystem\\HospitalSystem.csproj|e:\\gdg-backend\\assignment.oop\\hospitalsystem\\hospitalsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB4EF4BD-ADD0-459A-A326-CE114D0FF4C4}|HospitalSystem\\HospitalSystem.csproj|solutionrelative:hospitalsystem\\hospitalsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A248A18E-8AB5-4255-9DBB-CA38B2ABB087}|OnlineBookReader\\OnlineBookReader.csproj|e:\\gdg-backend\\assignment.oop\\onlinebookreader\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A248A18E-8AB5-4255-9DBB-CA38B2ABB087}|OnlineBookReader\\OnlineBookReader.csproj|solutionrelative:onlinebookreader\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB4EF4BD-ADD0-459A-A326-CE114D0FF4C4}|HospitalSystem\\HospitalSystem.csproj|e:\\gdg-backend\\assignment.oop\\hospitalsystem\\hospitalqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB4EF4BD-ADD0-459A-A326-CE114D0FF4C4}|HospitalSystem\\HospitalSystem.csproj|solutionrelative:hospitalsystem\\hospitalqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A248A18E-8AB5-4255-9DBB-CA38B2ABB087}|OnlineBookReader\\OnlineBookReader.csproj|e:\\gdg-backend\\assignment.oop\\onlinebookreader\\customer_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A248A18E-8AB5-4255-9DBB-CA38B2ABB087}|OnlineBookReader\\OnlineBookReader.csproj|solutionrelative:onlinebookreader\\customer_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB4EF4BD-ADD0-459A-A326-CE114D0FF4C4}|HospitalSystem\\HospitalSystem.csproj|e:\\gdg-backend\\assignment.oop\\hospitalsystem\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB4EF4BD-ADD0-459A-A326-CE114D0FF4C4}|HospitalSystem\\HospitalSystem.csproj|solutionrelative:hospitalsystem\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A248A18E-8AB5-4255-9DBB-CA38B2ABB087}|OnlineBookReader\\OnlineBookReader.csproj|e:\\gdg-backend\\assignment.oop\\onlinebookreader\\admin_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A248A18E-8AB5-4255-9DBB-CA38B2ABB087}|OnlineBookReader\\OnlineBookReader.csproj|solutionrelative:onlinebookreader\\admin_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EED59945-6838-4A4F-8B46-F8F5D9317D9B}|LibrarySystem\\LibrarySystem.csproj|e:\\gdg-backend\\assignment.oop\\librarysystem\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EED59945-6838-4A4F-8B46-F8F5D9317D9B}|LibrarySystem\\LibrarySystem.csproj|solutionrelative:librarysystem\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A248A18E-8AB5-4255-9DBB-CA38B2ABB087}|OnlineBookReader\\OnlineBookReader.csproj|e:\\gdg-backend\\assignment.oop\\onlinebookreader\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A248A18E-8AB5-4255-9DBB-CA38B2ABB087}|OnlineBookReader\\OnlineBookReader.csproj|solutionrelative:onlinebookreader\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB4EF4BD-ADD0-459A-A326-CE114D0FF4C4}|HospitalSystem\\HospitalSystem.csproj|e:\\gdg-backend\\assignment.oop\\hospitalsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB4EF4BD-ADD0-459A-A326-CE114D0FF4C4}|HospitalSystem\\HospitalSystem.csproj|solutionrelative:hospitalsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A248A18E-8AB5-4255-9DBB-CA38B2ABB087}|OnlineBookReader\\OnlineBookReader.csproj|e:\\gdg-backend\\assignment.oop\\onlinebookreader\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A248A18E-8AB5-4255-9DBB-CA38B2ABB087}|OnlineBookReader\\OnlineBookReader.csproj|solutionrelative:onlinebookreader\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +30,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Customer_User.cs",
+              "DocumentMoniker": "E:\\gdg-backend\\Assignment.OOP\\OnlineBookReader\\Customer_User.cs",
+              "RelativeDocumentMoniker": "OnlineBookReader\\Customer_User.cs",
+              "ToolTip": "E:\\gdg-backend\\Assignment.OOP\\OnlineBookReader\\Customer_User.cs",
+              "RelativeToolTip": "OnlineBookReader\\Customer_User.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAADwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T23:16:55.063Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Admin_User.cs",
+              "DocumentMoniker": "E:\\gdg-backend\\Assignment.OOP\\OnlineBookReader\\Admin_User.cs",
+              "RelativeDocumentMoniker": "OnlineBookReader\\Admin_User.cs",
+              "ToolTip": "E:\\gdg-backend\\Assignment.OOP\\OnlineBookReader\\Admin_User.cs",
+              "RelativeToolTip": "OnlineBookReader\\Admin_User.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAABUAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T23:15:32.581Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Book.cs",
+              "DocumentMoniker": "E:\\gdg-backend\\Assignment.OOP\\OnlineBookReader\\Book.cs",
+              "RelativeDocumentMoniker": "OnlineBookReader\\Book.cs",
+              "ToolTip": "E:\\gdg-backend\\Assignment.OOP\\OnlineBookReader\\Book.cs",
+              "RelativeToolTip": "OnlineBookReader\\Book.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T00:08:18.114Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -46,67 +87,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Patient.cs",
-              "DocumentMoniker": "E:\\gdg-backend\\Assignment.OOP\\HospitalSystem\\Patient.cs",
-              "RelativeDocumentMoniker": "HospitalSystem\\Patient.cs",
-              "ToolTip": "E:\\gdg-backend\\Assignment.OOP\\HospitalSystem\\Patient.cs",
-              "RelativeToolTip": "HospitalSystem\\Patient.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\gdg-backend\\Assignment.OOP\\OnlineBookReader\\User.cs",
+              "RelativeDocumentMoniker": "OnlineBookReader\\User.cs",
+              "ToolTip": "E:\\gdg-backend\\Assignment.OOP\\OnlineBookReader\\User.cs",
+              "RelativeToolTip": "OnlineBookReader\\User.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAHgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T17:59:34.993Z",
+              "WhenOpened": "2025-07-17T23:09:33.635Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HospitalSystem.cs",
-              "DocumentMoniker": "E:\\gdg-backend\\Assignment.OOP\\HospitalSystem\\HospitalSystem.cs",
-              "RelativeDocumentMoniker": "HospitalSystem\\HospitalSystem.cs",
-              "ToolTip": "E:\\gdg-backend\\Assignment.OOP\\HospitalSystem\\HospitalSystem.cs",
-              "RelativeToolTip": "HospitalSystem\\HospitalSystem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T17:33:29.154Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HospitalQueue.cs",
-              "DocumentMoniker": "E:\\gdg-backend\\Assignment.OOP\\HospitalSystem\\HospitalQueue.cs",
-              "RelativeDocumentMoniker": "HospitalSystem\\HospitalQueue.cs",
-              "ToolTip": "E:\\gdg-backend\\Assignment.OOP\\HospitalSystem\\HospitalQueue.cs",
-              "RelativeToolTip": "HospitalSystem\\HospitalQueue.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAACEAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T17:33:05.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\gdg-backend\\Assignment.OOP\\HospitalSystem\\Program.cs",
-              "RelativeDocumentMoniker": "HospitalSystem\\Program.cs",
-              "ToolTip": "E:\\gdg-backend\\Assignment.OOP\\HospitalSystem\\Program.cs",
-              "RelativeToolTip": "HospitalSystem\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "E:\\gdg-backend\\Assignment.OOP\\OnlineBookReader\\Program.cs",
+              "RelativeDocumentMoniker": "OnlineBookReader\\Program.cs",
+              "ToolTip": "E:\\gdg-backend\\Assignment.OOP\\OnlineBookReader\\Program.cs",
+              "RelativeToolTip": "OnlineBookReader\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T17:16:50.043Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Library.cs",
-              "DocumentMoniker": "E:\\gdg-backend\\Assignment.OOP\\LibrarySystem\\Library.cs",
-              "RelativeDocumentMoniker": "LibrarySystem\\Library.cs",
-              "ToolTip": "E:\\gdg-backend\\Assignment.OOP\\LibrarySystem\\Library.cs",
-              "RelativeToolTip": "LibrarySystem\\Library.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T17:30:34.153Z",
+              "WhenOpened": "2025-07-17T23:08:21.921Z",
               "EditorCaption": ""
             }
           ]
