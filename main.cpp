@@ -2,226 +2,286 @@
 
 using namespace std;
 
+const int MAX_USERS = 1000;
+const int MAX_QUESTIONS = 1000;
+const int MAX_ANSWERS= 1000;
+
 struct User{
-    const int MAX_USERS = 1000;
-    int user_ids[MAX_USERS];
-    string usernames[MAX_USERS];
-    string passwords[MAX_USERS];
-    string email[MAX_USERS];
-    string names[MAX_USERS];
-
-    int users_count=0;
-
+    int id;
+    string username, password, email, name;
 };
-struct Helper{
-
-void Main_menu(){
-    cout<< "Menu:\n 1.Login\n 2.Sign up\n";
-    cout<<"Enter a number in range 1-2: ";
-    int number;
-    cin>>number;
-    if(number == 1){
-        Login();
-    }
-    else if(number == 2){
-        Signup();
-    }
-    else{
-        cout<< "Enter a number in range 1-2!\n";
-        Main_menu();
-    }
-}
-};
-
 struct Question{
-    const int MAX_QUESTIONS = 1000;
-    const int MAX_TEXT = 100;
-
-    string questions[MAX_QUESTIONS];
-    int question_ids[MAX_QUESTIONS];
-    int questions_count=0;
-
-    string question_text[MAX_TEXT];
-    int question_text_count=0;
+    int id;
+    int from_user_id;
+    int to_user_id;
+    string text;
+    string answer;
 
 
 
 };
 struct Answer{
-     string answers[MAX_QUESTIONS];
-     int answers_count=0;
-
-     const int MAX_TEXT = 100;
-     string answer_text[MAX_TEXT];
-     int answer_text_count=0;
-
-
-
-
+    int question_id;
+    string text;
 };
 
+struct Askfm_system{
+    User users[MAX_USERS];
+    Question questions[MAX_QUESTIONS];
+    Answer answers[MAX_ANSWERS];
 
+    int users_count=0;
+    int questions_count=0;
+    int answers_count=0;
 
-struct App_menu{
-  void Print_ques_to_me(){
+    int current_user_id = -1;
 
-   cout<< "Question Id (question.id) from user (user.id)\nQuestion: (Question.content)\nAnswer: (Answer.content)"
+void Main_menu(){
+    while (true){
+      cout<< "Menu:\n 1.Login\n 2.Sign up\n";
+      cout<<"Enter a number in range 1-2: ";
 
-
-}
-void Print_ques_from_me(){
-
-     cout<< "Question Id (question.id) from user (user.id)\nQuestion: (Question.content)\nAnswer: (Answer.content)"
-
-}
-void Ask_question(){
-    cout<< "Enter user id or -1 to cancel: ";
-    int user_id; cin>>user_id;
-    if(id == -1) return; //for now
-    else{
-        User.user_ids[User.users_count] = user_id;
-        User.users_count++;
+      int number; cin>>number;
+      if(number == 1){
+       Login();
+       }
+      else if(number == 2){
+       Signup();
+       }
+      else{
+      cout<< "Enter a number in range 1-2!\n";
+      Main_menu();
+      }
     }
+ }
+
+void Signup(){
+    if(users_count>=MAX_USERS){
+        cout<<"Can't add more users\n";
+        return;
+    }
+    User user1;
+    user1.id = users_count + 1;
+    cout<< "Enter username (No spaces): "; cin>>user1.username;
+    cout<<"Enter password: "; cin>>user1.password;
+    cout<<"Enter name: "; cin>>user1.name;
+    cout<<"Enter email: "; cin>>user1.email;
+
+    users[users_count] = user1;
+    users_count++;
+    //cout<<"Allow anonymous questions?(0 or 1): ";
+    //int number; cin>>number;
+    //implement fun to handle this ques
+
+     App_menu();
+  }
+
+void Login(){
+    string username, password;
+    cout<< "Enter username & password: ";
+    cin>>username; cin>>password;
+
+    for(int i =0; i<users_count; i++){
+        if(username == users[i].username && password == users[i].password){
+            App_menu();
+        }
+
+       else{
+        cout<<"User is not registered. Sign up!";
+           Main_menu();
+         }
+
+    }
+  }
+
+void App_menu(){
+cout<<"Menu:\n ";
+cout<<"1. Print questions to me\n";
+cout<<"2. Print questions from me\n";
+cout<<"3. Answer question\n";
+cout<<"4. Delete question\n";
+cout<<"5. Ask question\n";
+cout<<"6. List system users\n";
+cout<<"7. Feed\n";
+cout<<"8. Log out\n";
+cout<<"Enter a number in range 1 -8: ";
+
+int number; cin>>number;
+if(number <1 || number > 8){
+    cout<< "Error: invalid number. Try again!\n";
+    App_menu();
+
+}
+if (number == 1) Print_ques_to_me();
+else if (number == 2) Print_ques_from_me();
+else if (number == 3) Answer_question();
+else if (number == 4) Delete_question();
+else if (number == 5) Ask_question(current_user_id);
+else if (number == 6) List_system_users();
+else if (number == 7) Show_feed();
+else if (number == 8) Logout();
+}
+void Print_ques_to_me(){
+    bool flag = false;
+    for (int i = 0; i < questions_count; i++) {
+        if (questions[i].to_user_id == current_user_id) {
+            flag = true;
+            cout << "Question ID: " << questions[i].id << " from User ID: " << questions[i].from_user_id << "\n";
+            cout << "Question: " << questions[i].text << "\n";
+        }
+    }
+    if (!flag) {
+        cout << "No questions recieved\n";
+        App_menu();
+    }
+}
+
+void Print_ques_from_me(){
+    bool flag = false;
+    for (int i = 0; i < questions_count; i++) {
+        if (questions[i].from_user_id == current_user_id) {
+            flag = true;
+            cout << "Question ID: " << questions[i].id << " to User ID: " << questions[i].to_user_id << "\n";
+            cout << "Question: " << questions[i].text << "\n";
+        }
+    }
+    if (!flag) {
+        cout << "No questions sent\n";
+    }
+}
+
+void Ask_question(int from_user_id){
+    cout<< "Enter user id or -1 to cancel: ";
+
+    int to_user_id; cin>>to_user_id;
+    if(to_user_id == -1) return;
+
     cout<< "Note: Anonymous questions are not allowed for this user";
     cout<< "For thread question: enter question id or -1 for new question: ";
-    int que_id; cin>>que_id;
-    if(que_id == -1){
+
+    int q_id; cin>>q_id;
+    if(q_id == -1){
+
     cout<< "Enter question text";
     string text; cin>>text;
-    Question.questions_text[Question.question_text_count]=text;
-    Question.question_text_count++;
+    Question question1;
 
-    }
-    else{
-    Question.question_ids[Question.questions_count]=question_id;
-    Question.questions_count++;
-    cout<< "Enter question text";
-    string text; cin>>text;
-    Question.question_text[Question.question_text_count]=text;
-    Question.question_text_count++;
-    }
-
+    question1.id = questions_count + 1;
+    question1.from_user_id = from_user_id;
+    question1.to_user_id = to_user_id;
+    question1.text = text;
+    question1.answer = "";
+    questions[questions_count] = question1;
+    questions_count++;
+}
 
 }
 
 void Answer_question(){
-    cout<<"Enter question id or -1 to cancel: ";
-    int question_id; cin>>question_id;
-    if(question_id == -1) return; //for now
-    else{
-        for(int i=0; i<Question.question_ids.length(); i++){
-            if(Question.question_ids[i]==question_id){
-                cout<<Question.question_text<<"\n";
-            }
-        }
-        string answer; cin>>answer;
-        Answer.answer_text[Answer.answer_text_count] = answer;
-        Answer.answer_text_count++;
 
+cout<<"Enter question id or -1 to cancel: ";
+
+int q_id; cin>>q_id;
+
+if(q_id == -1) return;
+
+bool flag = false;
+for (int i =0; i<questions_count; i++){
+
+        if(questions[i].id==q_id){
+            flag=true;
+            cout<<"Question: "<<questions[i].text<<"\n";
+            break;
+
+        }
     }
+if(!flag){
+            cout<<"Question not found";
+            return;
+}
+cout<<"Enter your answer: ";
+
+string answer_text; cin>>answer_text;
+
+Answer answer1;
+answer1.question_id = q_id;
+answer1.text = answer_text;
+
+answers[answers_count] = answer1;
+answers_count++;
 
 
 }
+
 void Delete_question(){
 
+cout<<"Enter question id or -1 to cancel: ";
+
+int q_id; cin>>q_id;
+
+if(q_id == -1) return;
+
+bool flag = false;
+for (int i =0; i<questions_count; i++){
+
+        if(questions[i].id==q_id){
+
+            for(int j =i+1; j<questions_count; j++){
+                questions[j-1] = questions[j];
+            }
+            questions_count--;
+            flag=true;
+            break;
+
+
+        }
+}
+if(!flag){
+    cout<<"Question not found\n";
+    return;
+}
 
 }
 
 void List_system_users(){
 
+for(int i =0; i<users_count; i++){
+
+    if(users[i].name == " "){
+
+    continue;
+   }
+   else{
+      cout<<"Id: "<<users[i].id<< " "<<"Name: "<<users[i].name<<"\n";
+
+
+   }
+}
 
 }
+
 void Show_feed(){
 
 }
 
+void Logout(){
 
+cout<< "Logged out! ";
 
-void App_menu(){
-    cout<<"Menu:\n ";
+Main_menu();
 
-    cout<<"1. Print questions to me\n";
+}
 
-    cout<<"2. Print questions from me\n";
-
-    cout<<"3. Answer question\n";
-
-    cout<<"4. Delete question\n";
-
-    cout<<"5. Ask question\n";
-
-    cout<<"6. List system users\n";
-
-    cout<<"7. Feed\n";
-
-    cout<<"8. Log out";
-
-    cout<<"Enter a number in range 1 -8: ";
-    int number; cin>>number;
-
-    if(number <1 || number > 8){
-        cout<< "Error: invalid number. Try again!\n";
-        App_menu();
-    }
-
-    if (choice == 1) Print_ques_to_me();
-    else if (choice == 2) Print_ques_from_me();
-    else if (choice == 3) Answer_question();
-    else if (choice == 4) Delete_question();
-    else if (choice == 5) Ask_question();
-    else if (choice == 6) List_system_users();
-    else if (choice == 7) Show_feed();
-    else if (choice == 8) Logout();
-
-
-   }
 
 };
-
-void Login(){
-    cout<< "Enter username & password: ";
-    App_menu();
-
-
-
-}
-void Logout(){
-    cout<< "Logged out! ";
-    Main_menu();
-
-}
-
-
-void Signup(){
-    cout<< "Enter username (No spaces): ";
-    string username; cin>>username;
-
-    cout<<"Enter password: ";
-    string password; cin>>password;
-
-    cout<<"Enter name: ";
-    string name; cin>>name;
-
-    cout<<"Enter email: ";
-    string email; cin>>email;
-
-    cout<<"Allow anonymous questions?(0 or 1): "
-    int number; cin>>number;
-    //implement fun to handle this ques
-    usernames[users_count]=username;
-    passwords[users_count]=password;
-    names[users_count]=name;
-    email[users_count]=email;
-    users_count++:
-
-    App_menu();
-
-}
 
 
 int main()
 {
-    Helper helper;
-    helper.Main_menu();
-    return 0;
+
+Askfm_system askfm;
+askfm.Main_menu();
+
+return 0;
+
 }
